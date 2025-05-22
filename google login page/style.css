@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#f0f2f5 ;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+  
+
+}
+.google-login{
+    background-color: white;
+     display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 15rem;
+      border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 3rem;
+    
+}
+.logo{
+    width: 50px;
+}
+.google h1{
+    font-size: 3rem;
+}
+.google p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.login input{
+    width: 500px;
+    height: 40px;
+    padding: 15px 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+.forget-email{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: 10px;
+}
+.login p{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+.btn{
+    display: flex;
+   justify-content: end;
+   gap: 5rem;
+   margin-top: 2rem;
+}
+.learn-more{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.creat-account{
+font-size: 1.5rem;
+text-decoration: none;
+color: blue;
+ font-weight: 600;
+}
+.next{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+     font-weight: 600;
+}
